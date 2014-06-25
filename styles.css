@@ -85,4 +85,28 @@ a {
     padding-top: 20px;
 }
 
+#product-detail {
+    margin: 5px;
+    padding: 5px;
+}
 
+#item-image {
+    float: left;
+}
+
+#item-info {
+    margin-left: 350px;
+    padding: 10px;
+}
+
+#item-info h2 {
+    color: #579ed2;
+}
+
+#item-info div {
+    margin: 10px;
+}
+
+#sibling-for-float {
+    clear: left;
+}
