@@ -1,7 +1,16 @@
+
+/*******************
+    reset 
+*******************/
+
 * {
     padding: 0;
     margin: 0;
 }
+
+/*******************
+    structure 
+*******************/
 
 body {
     width: 960px;
@@ -9,9 +18,30 @@ body {
     font-family: Tahoma, sans-serif;
 }
 
+main {
+    margin-bottom: 20px;
+}
+
 a {
     text-decoration: none;
 }
+
+ul {
+    list-style-type: none;
+}
+
+input {
+    width: 25px;
+}
+
+/*******************
+    component 
+*******************/
+
+
+/*******************
+    client-menu
+*******************/
 
 #header-area {
     margin: 20px;
@@ -25,10 +55,6 @@ a {
     background-color: #92A117;
     border-color: #92A117;
     border-radius: 5px;
-}
-
-#menu ul {
-    list-style-type: none;
 }
 
 #menu ul li {
@@ -107,6 +133,50 @@ a {
     margin: 10px;
 }
 
-#sibling-for-float {
+.sibling-for-float {
     clear: left;
+}
+
+#inline-item {
+    float: left;
+    min-width: 650px;
+}
+
+#total-cost {
+    float: right;
+    margin-right: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px gray solid;
+    padding: 5px;
+}
+
+#total-cost li {
+    margin: 5px;
+    border: 5px;
+}
+
+#total-cost button {
+    font-size: 20px;
+}
+
+.inline-item-img {
+    width: 100px;
+    height: 100px;
+}
+
+#inline-item-list .inline-item-img {
+    margin-right: 350px;
+}
+
+.sibling-for-float hr {
+    margin-bottom: 20px;
+}
+
+#empty-cart {
+    float: left;
+}
+
+#sub-total-count {
+    float: right;
 }
