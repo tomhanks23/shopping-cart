@@ -27,12 +27,16 @@ Mom&Kids shopping carts' User Story:
    * update order table by change the order status into "paid"
 
 6. I am the manager, I want to see how many deals recently happened.
+   * create a new page to display data
    * select * from order table
 
 7. I am the manager, I want to see how many users have registered to my website.
+   * create a new page to display data
    * select * from user
 
 8. I am the manager, I want to add, delete, update items.
+   * create a new page to display data
+   * add update form
    * insert into product table
    * update product table
    * delete record from product table
