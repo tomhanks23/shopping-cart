@@ -20,6 +20,7 @@ body {
 
 main {
     margin-bottom: 20px;
+    min-height: 300px;
 }
 
 a {
@@ -36,7 +37,8 @@ input {
 
 /*******************
     component 
-*******************/
+********************
+
 
 
 /*******************
@@ -134,7 +136,20 @@ input {
 }
 
 .sibling-for-float {
-    clear: left;
+    clear: both;
+}
+
+/*******************
+    inline-item page
+*******************/
+
+#reurn-shopping {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: right;
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 5px;
 }
 
 #inline-item {
@@ -179,4 +194,13 @@ input {
 
 #sub-total-count {
     float: right;
+}
+
+
+
+#header-area-admin{
+    background-color: lightgray;
+    min-height: 30px;
+    padding: 10px;
+    margin: 10px;
 }

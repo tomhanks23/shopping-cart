@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mom&Kids</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $( "#tabs" ).tabs();
+        });
+    </script>
+</head>
+<body>
+    <header>
+
+        <div id="header-area-admin">
+            <div id="title-admin">
+                <h2>Administrator of Mom&kids's website</h2>
+            </div>
+            <div id="login">
+                <span><a href="#">Admin</a> &nbsp; | &nbsp; <a href="#">log out</a></span> 
+            </div>
+            <div class="sibling-for-float"></div>
+        </div>
+
+    </header>
+
+    <main>
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Orders</a></li>
+                <li><a href="#tabs-2">Users</a></li>
+                <li><a href="#tabs-3">Create products</a></li>
+            </ul>
+            <div id="tabs-1">
+                <table>
+                    <thead>
+                        <tr>
+                            <th width="20%">
+                                Order Id
+                            </th>
+                            <th width="20%">
+                                Customer
+                            </th>
+                            <th width="20%">
+                                Aount
+                            </th>
+                            <th width="20%">
+                                Payment status
+                            </th>
+                            <th width="20%">
+                                Date
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td width="20%">
+                                15
+                            </td>
+                            <td width="20%">
+                                Tom
+                            </td>
+                            <td width="20%">
+                                $18
+                            </td>
+                            <td width="20%">
+                                paid
+                            </td>
+                            <td width="20%">
+                                June 25th 2014
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20%">
+                                14
+                            </td>
+                            <td width="20%">
+                                Jon
+                            </td>
+                            <td width="20%">
+                                $25
+                            </td>
+                            <td width="20%">
+                                waiting payment
+                            </td>
+                            <td width="20%">
+                                June 20th 2014
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20%">
+                                13
+                            </td>
+                            <td width="20%">
+                                Fred
+                            </td>
+                            <td width="20%">
+                                $36
+                            </td>
+                            <td width="20%">
+                                paid
+                            </td>
+                            <td width="20%">
+                                June 19th 2014
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="tabs-2">
+                <p>tabs-2</p>
+            </div>
+            <div id="tabs-3">
+                <p>tabs-3</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer-area">
+            <p id="copyright">&#169;2014 Mom&Kid. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
